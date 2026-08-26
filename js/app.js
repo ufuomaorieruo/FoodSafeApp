@@ -1,0 +1,1 @@
+document.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener('change',()=>{const e=cb.closest('.check-row')?.querySelector('em');if(e){e.classList.toggle('good',cb.checked);e.classList.toggle('warning',!cb.checked);e.textContent=cb.checked?'Complete':'Pending'}}));
