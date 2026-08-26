@@ -1,5 +1,5 @@
 <?php
-$stats=[["Overall compliance","70%","+4.8% this month","good"],["Tasks completed","18 / 21","3 tasks pending","info"],["Open findings","2","1 high priority","warning"],["Temperature checks","96%","All critical limits met","good"]];
+$stats=[["Overall compliance","89%","+4.8% this month","good"],["Tasks completed","18 / 21","3 tasks pending","info"],["Open findings","2","1 high priority","warning"],["Temperature checks","96%","All critical limits met","good"]];
 $tasks=[["Daily hygiene inspection","Production Area","Completed","good"],["Refrigerator temperature check","Cold Room 1","Completed","good"],["Cleaning verification","Processing Area","Pending","warning"],["Raw material receiving check","Receiving Bay","Completed","good"],["Pest control inspection","Storage Area","Pending","warning"]];
 $temps=[["Cold Room 1","4.2 °C","0–5 °C","Normal","good"],["Cold Room 2","7.8 °C","0–5 °C","Attention","warning"],["Freezer","-18.4 °C","≤ -18 °C","Normal","good"]];
 $activity=[["✓","Cleaning record completed","Production Area","12 min ago"],["!","Temperature above target","Cold Room 2","38 min ago"],["✓","Supplier inspection completed","Receiving Bay","1 hr ago"],["✓","Hygiene checklist submitted","Production Area","2 hrs ago"]];
